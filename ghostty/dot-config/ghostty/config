@@ -30,18 +30,20 @@ keybind = super+control+shift+alt+arrow_up=resize_split:up,100
 keybind = super+control+shift+alt+arrow_left=resize_split:left,100
 keybind = super+control+shift+alt+arrow_right=resize_split:right,100
 
-keybind = ctrl+n=new_window
+# keybind = ctrl+n=new_window
 
-keybind = ctrl+h=goto_split:left
-keybind = ctrl+j=goto_split:bottom
-keybind = ctrl+k=goto_split:top
-keybind = ctrl+l=goto_split:right
+keybind = ctrl+a>h=goto_split:left
+keybind = ctrl+a>j=goto_split:bottom
+keybind = ctrl+a>k=goto_split:top
+keybind = ctrl+a>l=goto_split:right
 
-keybind = ctrl+a>h=new_split:left
-keybind = ctrl+a>j=new_split:down
-keybind = ctrl+a>k=new_split:up
-keybind = ctrl+a>l=new_split:right
-keybind = ctrl+a>f=toggle_split_zoom
+keybind = ctrl+a>shift+h=new_split:left
+keybind = ctrl+a>shift+j=new_split:down
+keybind = ctrl+a>shift+k=new_split:up
+keybind = ctrl+a>shift+l=new_split:right
+
+keybind = ctrl+a>z=toggle_split_zoom
+keybind = ctrl+a>x=close_surface
 
 keybind = ctrl+a>n=next_tab
 keybind = ctrl+a>p=previous_tab
