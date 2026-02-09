@@ -16,9 +16,6 @@ alias lg='lazygit'
 # Starship
 eval "$(starship init bash)"
 
-# Fastfetch
-fastfetch
-
 # Flutter
 export PATH="$PATH:/opt/android-sdk/platform-tools/"
 export PATH="$PATH:/opt/android-sdk/build-tools/"
@@ -31,3 +28,8 @@ export PATH="$PATH:/opt/android-sdk/cmdline-tools/latest/bin/"
 export PATH="$PATH:/home/gabriel/.lmstudio/bin"
 # End of LM Studio CLI section
 
+# tmux
+tmux new-session -A -s default
+
+# Fastfetch
+fastfetch
